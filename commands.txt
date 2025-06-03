@@ -11,3 +11,24 @@ git remote rename <old_name> <new_name>
 git remote set-url <name> <new_url>
 
 git remote show <name>
+
+# Branch
+
+git branch
+
+git branch -M <new_name>
+
+git branch -r
+
+git branch -a
+
+git branch <branch_name>
+git checkout <branch_name>
+
+git checkout -b <branch_name>
+
+git switch -c <branch_name>
+
+git branch -d <branch_name>
+
+git branch -D <branch_name>
