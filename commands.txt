@@ -32,3 +32,28 @@ git switch -c <branch_name>
 git branch -d <branch_name>
 
 git branch -D <branch_name>
+
+# Commit
+
+git commit -m "Message for your commit"
+
+(Edit your last commit for local)
+git commit --amend -m "Updated message for your commit"
+
+If you want to push that commit to github (If you code already pushed to github) - 
+- git push --force (f you’re the only person working on the branch.)
+- git push --force-with-lease (Do it more safely on team projects
+)
+
+git add <file_name>
+git commit --amend --no-edit
+
+git add <file_name>
+git commit --amend -m "Updated message for you commit after adding a new file"
+
+git add -u
+git commit -m "Message for your commit"
+
+or
+
+git commit -a -m "Message for your commit"
