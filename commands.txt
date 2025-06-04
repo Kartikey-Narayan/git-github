@@ -1,3 +1,11 @@
+# Git Initialization
+
+git init
+
+# Remove Git Initialization
+
+rm -rf .git
+
 # Remote
 
 git remote -v
@@ -77,3 +85,8 @@ git log --oneline
 git restore <file_name>
 
 git restore --staged <file_name>
+
+or
+
+git rm --cached <file_name>
+
