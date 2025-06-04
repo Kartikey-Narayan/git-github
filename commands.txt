@@ -57,3 +57,23 @@ git commit -m "Message for your commit"
 or
 
 git commit -a -m "Message for your commit"
+
+# Fork
+
+Fork repo → your GitHub
+
+# Clone
+
+git clone <url>
+
+# Log
+
+git log
+
+git log --oneline
+
+# Restore
+
+git restore <file_name>
+
+git restore --staged <file_name>
