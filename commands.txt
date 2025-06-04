@@ -49,9 +49,8 @@ git commit -m "Message for your commit"
 git commit --amend -m "Updated message for your commit"
 
 If you want to push that commit to github (If you code already pushed to github) - 
-- git push --force (f you’re the only person working on the branch.)
-- git push --force-with-lease (Do it more safely on team projects
-)
+- git push --force (If you’re the only person working on the branch)
+- git push --force-with-lease (Do it more safely on team projects)
 
 git add <file_name>
 git commit --amend --no-edit
@@ -80,13 +79,24 @@ git log
 
 git log --oneline
 
-# Restore
+# Restore/Remove
 
 git restore <file_name>
 
-git restore --staged <file_name>
+git restore --staged <file_name> (Removes the file from staging, keeps the file and its changes in your working directory)
 
 or
 
-git rm --cached <file_name>
+git rm --cached <file_name> (Remove a file from Git tracking, but keep it on local)
 
+# Diff
+
+git diff
+
+git diff --staged
+
+git diff <commit_id> <file_name>
+
+git diff <commit_id_1> <commit_id_2>
+
+git branch <branch_1> <branch_2>
