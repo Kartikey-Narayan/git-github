@@ -83,6 +83,10 @@ git log --oneline
 
 git restore <file_name>
 
+or 
+
+git checkout -- <file-name>
+
 git restore --staged <file_name> (Removes the file from staging, keeps the file and its changes in your working directory)
 
 or
@@ -100,3 +104,9 @@ git diff <commit_id> <file_name>
 git diff <commit_id_1> <commit_id_2>
 
 git branch <branch_1> <branch_2>
+
+# Show
+
+git show <commit_id>
+
+git show <commit_id> -- <file_name>
